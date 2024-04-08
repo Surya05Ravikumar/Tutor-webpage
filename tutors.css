@@ -1,0 +1,146 @@
+body {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .main {
+	position: relative;
+	overflow: hidden;
+	background: linear-gradient(to right);
+  }
+  
+  nav {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	padding: 2rem 1rem;
+	width: 100%;
+	max-width: var(--max-width);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+  }
+  
+  .logo img {
+	width: 150px;
+  }
+  
+  .nav-links {
+	flex: 1;
+	text-align: right;
+  }
+  
+  .nav-links ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .nav-links ul li {
+	display: inline-block;
+	margin: 0 10px;
+  }
+  
+  .nav-links ul li a {
+	text-decoration: none;
+	color: black;
+  }
+  
+  #button1 {
+	background-color: rgb(50, 14, 192);
+	border: none;
+	padding: 10px 10px;
+	border-radius: 20px;
+  }
+
+  #button2 {
+	background-color: coral;
+	color: black;
+	border: none;
+	padding: 10px 10px;
+	border-radius: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+  }
+
+  
+  .dec {
+	color: black;
+	background-color: rgb(233, 161, 5);
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+  }
+  
+  .me {
+	color: white;
+	background-color: rgb(29, 78, 174);
+	margin-top: 30px;
+	padding: 10px 50px;
+	text-align: center;
+  }
+  
+  .me table {
+	width: 100%;
+	border-collapse: collapse;
+  }
+  
+  .me td {
+	padding: 10px;
+  }
+  
+  .me.vertical-line {
+	border-right: 1px solid white;
+  }
+  
+  .container {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+}
+  
+  .box {
+	width: calc(25% - 10px);
+	padding: 10px;
+	text-align: center;
+	margin: 0;
+  }
+  
+  .inner-box {
+	width: 200px;
+	height: 160px;
+	background-color: #fcf9f9;
+	margin: 5px auto;
+  }
+  
+  img {
+	max-width: 50%;
+	height: auto;
+	float: right;
+  }
+  
+  .content {
+	max-width: 45%;
+  }
+  
+  .contents {
+	padding: 100px 100px;
+  }
+  
+  #main-container {
+	display: flex;
+	align-items: top;
+	padding: 20px;
+  }
+  
+  #content {
+	flex: 1;
+  }
+  
+  #main-image {
+	max-width: 50%;
+	height: auto;
+	padding-right: 60px;
+  }
